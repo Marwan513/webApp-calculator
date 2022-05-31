@@ -1,0 +1,76 @@
+body{
+	font-family: 'Open Sans',sans-serif;
+	background-color: #fca903;
+}
+#container{
+	width: 1001px;
+	height: 556px;
+	background-image: url(wallpaperflare-cropped.jpg);
+	margin: 20px auto;
+	position: relative;
+	top: 15%;
+
+}
+#calculator{
+	width: 320px;
+	height: 480px;
+	background-color: #dcdcdc;
+	margin: 0 auto;
+  position: relative;
+	border-radius: 5px;
+	top: 5%;
+
+}
+#result{
+  text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+  background-color: white;
+}
+#keys{
+	height: 400px;
+}
+.key{
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 29px;
+}
+.key{
+	cursor: pointer;
+	background-color: #fca903;
+}
+.key:active{
+	font-size: 20px;
+  background-color: #ff0000;
+}
+.key:focus{
+	outline: 0;
+}
+#clear{
+  width: 290px;
+  height: 60px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+#clear:active{
+	font-size: 30px;
+  background-color: #ff0000;
+}
+#add,#subtract,#divide,#multiply,#equal,#dot{
+	background-color: #4a4a48;
+	color: white;
+}
+#add:active,#subtract:active,#divide:active,#multiply:active,#equal:active,#dot:active{
+		font-size: 20px;
+	  background-color: #ff0000;
+}
